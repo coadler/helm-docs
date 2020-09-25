@@ -7,8 +7,8 @@ import (
 type valueRow struct {
 	Key         string
 	Type        string
-	Default     string
 	Description string
+	Default     string
 }
 
 type chartTemplateData struct {

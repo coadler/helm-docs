@@ -199,10 +199,10 @@ func getValuesTableTemplates() string {
 	valuesSectionBuilder.WriteString(`{{ define "chart.valuesHeader" }}## Values{{ end }}`)
 
 	valuesSectionBuilder.WriteString(`{{ define "chart.valuesTable" }}`)
-	valuesSectionBuilder.WriteString("| Key | Type | Default | Description |\n")
+	valuesSectionBuilder.WriteString("| Key | Type | Description | Default |\n")
 	valuesSectionBuilder.WriteString("|-----|------|---------|-------------|\n")
 	valuesSectionBuilder.WriteString("  {{- range .Values }}")
-	valuesSectionBuilder.WriteString("\n| {{ .Key }} | {{ .Type }} | {{ .Default }} | {{ .Description }} |")
+	valuesSectionBuilder.WriteString("\n| {{ .Key }} | {{ .Type }} | {{ .Description }} | {{ .Default }} |")
 	valuesSectionBuilder.WriteString("  {{- end }}")
 	valuesSectionBuilder.WriteString("{{ end }}")
 
