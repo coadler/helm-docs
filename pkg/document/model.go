@@ -1,7 +1,7 @@
 package document
 
 import (
-	"github.com/norwoodj/helm-docs/pkg/helm"
+	"github.com/coadler/helm-docs/pkg/helm"
 )
 
 type valueRow struct {

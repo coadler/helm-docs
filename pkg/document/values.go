@@ -8,7 +8,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/norwoodj/helm-docs/pkg/helm"
+	"github.com/coadler/helm-docs/pkg/helm"
 )
 
 const (

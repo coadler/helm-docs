@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"regexp"
 
-	"github.com/norwoodj/helm-docs/pkg/helm"
+	"github.com/coadler/helm-docs/pkg/helm"
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/viper"
 )
